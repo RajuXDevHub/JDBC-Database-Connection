@@ -54,6 +54,7 @@ public class InsertingData {
 
             preparedStatement.close();
             connection.close();
+            snc.close();
 
 
         }catch (SQLException e){

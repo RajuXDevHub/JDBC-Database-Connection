@@ -44,6 +44,8 @@ public class ImageHandel_Demo {
                 System.out.println("Image not inserted ..");
             }
 
+            fileInputStream.close();
+
 
 
 

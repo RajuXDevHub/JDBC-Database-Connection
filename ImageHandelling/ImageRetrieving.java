@@ -36,9 +36,11 @@ public class ImageRetrieving {
                 OutputStream outputStream = new FileOutputStream(imagePath);
                 outputStream.write(image_data);
                 System.out.println("Image found ...");
+                outputStream.close();
             }else{
                 System.out.println("Image not found ");
             }
+            
 
 
 
